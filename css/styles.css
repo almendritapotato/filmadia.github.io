@@ -11202,3 +11202,27 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+/* Botón flotante de WhatsApp */
+.whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 35px;
+    text-decoration: none;
+    box-shadow: 2px 2px 10px rgba(0,0,0,.3);
+    z-index: 9999;
+    transition: .3s;
+}
+.whatsapp:hover {
+    background: #1ebe5d;
+    color: white;
+    transform: scale(1.1);
+}
